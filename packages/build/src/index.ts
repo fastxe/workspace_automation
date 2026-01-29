@@ -1,3 +1,5 @@
+#!/usr/bin/env tsx
+
 import { build } from 'esbuild';
 
 import fs from 'fs';
