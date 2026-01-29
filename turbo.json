@@ -12,6 +12,9 @@
         "@fastxe/gas-core#build": {
             "outputs": []
         },
+        "@fastxe/gas-build#build": {
+            "outputs": []
+        },
         "typecheck": {
             "dependsOn": []
         },
