@@ -16,8 +16,21 @@
             "outputs": []
         },
         "typecheck": {
-            "dependsOn": []
+            "dependsOn": [
+                "^build"
+            ]
         },
-        "lint": {}
+        "push": {
+            "dependsOn": [
+                "build"
+            ],
+            "cache": false
+        },
+        "deploy": {
+            "dependsOn": [
+                "build"
+            ],
+            "cache": false
+        }
     }
 }
