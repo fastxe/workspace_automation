@@ -46,6 +46,19 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
 
+  apps/sheets:
+    dependencies:
+      '@fastxe/gas-core':
+        specifier: workspace:*
+        version: link:../../packages/core
+    devDependencies:
+      '@fastxe/gas-build':
+        specifier: workspace:*
+        version: link:../../packages/build
+      clasp:
+        specifier: ^1.0.0
+        version: 1.0.0
+
   packages/build:
     devDependencies:
       '@types/node':

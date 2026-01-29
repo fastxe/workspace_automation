@@ -8,7 +8,7 @@ const root = process.cwd();
 
 const entry = path.join(root, 'src', 'index.ts');
 const outDir = path.join(root, 'dist');
-const outFile = path.join(outDir, 'Code.js');
+const outFile = path.join(outDir, 'index.js');
 
 if (!fs.existsSync(entry)) {
   console.error(`Entry file not found: ${entry}`);
