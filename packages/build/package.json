@@ -1,0 +1,12 @@
+{
+  "name": "@fastxe/gas-build",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "gas-build": "src/index.ts"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@fastxe/gas-forms",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "gas-build",
+    "push": "clasp push -f",
+    "deploy:prod": "pnpm build && pnpm push && clasp version \"prod\""
+  },
+  "dependencies": {
+    "@fastxe/gas-core": "workspace:*"
+  },
+  "devDependencies": {
+    "@fastxe/gas-build": "workspace:*",
+    "clasp": "^1.0.0"
+  }
+}
