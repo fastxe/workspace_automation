@@ -3,11 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
+  "main": "dist/index.js",
   "bin": {
-    "gas-build": "src/index.ts"
+    "gas-build": "dist/index.js"
+  },
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --platform=node --format=esm --outfile=dist/index.js --packages=external"
   },
   "devDependencies": {
-    "@types/node": "^25.1.0",
     "esbuild": "^0.27.2"
   }
 }

@@ -9,10 +9,11 @@
                 "dist/**"
             ]
         },
+        "@fastxe/gas-core#build": {
+            "outputs": []
+        },
         "typecheck": {
-            "dependsOn": [
-                "^build"
-            ]
+            "dependsOn": []
         },
         "lint": {}
     }

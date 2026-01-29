@@ -5,8 +5,21 @@
         "moduleResolution": "Bundler",
         "strict": true,
         "skipLibCheck": true,
+        "noEmit": true,
         "types": [
+            "node",
             "google-apps-script"
         ]
-    }
+    },
+    "references": [
+        {
+            "path": "./packages/build/tsconfig.json"
+        },
+        {
+            "path": "./packages/core/tsconfig.json"
+        },
+        {
+            "path": "./apps/forms/tsconfig.json"
+        }
+    ]
 }
