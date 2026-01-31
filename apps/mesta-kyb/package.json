@@ -8,10 +8,11 @@
     "deploy": "clasp version \"prod\""
   },
   "dependencies": {
-    "@fastxe/gas-core": "workspace:*"
+    "@fastxe/gas-core": "workspace:*",
+    "@fastxe/gas-forms": "workspace:*"
   },
   "devDependencies": {
-    "@fastxe/gas-build": "workspace:*",
+    "@fastxe/gas-dev": "workspace:*",
     "clasp": "^1.0.0"
   }
 }

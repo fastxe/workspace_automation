@@ -47,10 +47,13 @@ importers:
       '@fastxe/gas-core':
         specifier: workspace:*
         version: link:../../packages/core
-    devDependencies:
-      '@fastxe/gas-build':
+      '@fastxe/gas-forms':
         specifier: workspace:*
-        version: link:../../packages/build
+        version: link:../../packages/forms
+    devDependencies:
+      '@fastxe/gas-dev':
+        specifier: workspace:*
+        version: link:../../packages/dev
       clasp:
         specifier: ^1.0.0
         version: 1.0.0
@@ -60,15 +63,20 @@ importers:
       '@fastxe/gas-core':
         specifier: workspace:*
         version: link:../../packages/core
-    devDependencies:
-      '@fastxe/gas-build':
+      '@fastxe/gas-forms':
         specifier: workspace:*
-        version: link:../../packages/build
+        version: link:../../packages/forms
+    devDependencies:
+      '@fastxe/gas-dev':
+        specifier: workspace:*
+        version: link:../../packages/dev
       clasp:
         specifier: ^1.0.0
         version: 1.0.0
 
-  packages/build:
+  packages/core: {}
+
+  packages/dev:
     devDependencies:
       '@rollup/plugin-node-resolve':
         specifier: ^15.0.0
@@ -85,8 +93,6 @@ importers:
       rollup:
         specifier: ^4.57.0
         version: 4.57.0
-
-  packages/core: {}
 
   packages/docs: {}
 
