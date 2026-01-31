@@ -32,10 +32,10 @@ const bundle = await rollup({
       include: ['src/**/*.ts', '../../packages/**/*.ts'],
     }),
   ],
-  onwarn(warning, warn) {
-    if (warning.code === 'CIRCULAR_DEPENDENCY') return;
-    warn(warning);
-  },
+  // onwarn(warning, warn) {
+  //   if (warning.code === 'CIRCULAR_DEPENDENCY') return;
+  //   warn(warning);
+  // },
 });
 
 await bundle.write({

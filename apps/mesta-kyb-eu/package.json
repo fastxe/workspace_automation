@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "build": "gas-build",
-    "push": "gas-push"
+    "push": "clasp push -f",
+    "deploy": "clasp version \"prod\""
   },
   "dependencies": {
     "@fastxe/gas-core": "workspace:*"
