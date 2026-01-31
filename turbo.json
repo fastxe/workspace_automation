@@ -26,9 +26,15 @@
             ],
             "cache": false
         },
+        "init": {
+            "dependsOn": [
+                "push"
+            ],
+            "cache": false
+        },
         "deploy": {
             "dependsOn": [
-                "build"
+                "init"
             ],
             "cache": false
         }

@@ -1,11 +1,10 @@
 {
-  "name": "@fastxe/mesta-sheets",
+  "name": "@fastxe/mesta-kyb-eu",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "gas-build",
-    "push": "clasp push -f",
-    "deploy:prod": "pnpm build && pnpm push && clasp version \"prod\""
+    "push": "gas-push"
   },
   "dependencies": {
     "@fastxe/gas-core": "workspace:*"

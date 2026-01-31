@@ -1,5 +1,9 @@
 import { logInfo } from '@fastxe/gas-core';
 
+const __init = () => {
+  Logger.log('init project')
+}
+
 export function main() {
   logInfo('forms ran', { now: new Date().toISOString() });
 }
